@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "269432577885",
+    "project_id": "taazetest-a5147",
+    "storage_bucket": "taazetest-a5147.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269432577885:android:4719a61f832058d67692b4",
+        "android_client_info": {
+          "package_name": "testingdomain.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269432577885-o069qqjk2kn211rcthm3mkvct6ja3him.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1OF-k_L7BPipzouz_rDdY5BbtuytZlo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269432577885-o069qqjk2kn211rcthm3mkvct6ja3him.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "269432577885-p0q5j0mllf75d16lvme2k52pi3apb2dr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "testingdomain.myapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
