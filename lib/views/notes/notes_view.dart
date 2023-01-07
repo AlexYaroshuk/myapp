@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:myapp/services/auth/auth_service.dart';
 
 import '../../constants/routes.dart';
-import '../../crud/notes_service.dart';
+import '../../services/crud/notes_service.dart';
 import '../../enums/menu_action.dart';
 
 class NotesView extends StatefulWidget {
@@ -70,9 +70,8 @@ class _NotesViewState extends State<NotesView> {
                     stream: _noteService.allNotes,
                     builder: (context, snapshot) {
                       switch (snapshot.connectionState) {
-                        case ConnectionState.none:
-
                         case ConnectionState.waiting:
+                        case ConnectionState.active:
                           return const Text('Waiting for notes...');
 
                         default:

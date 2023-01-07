@@ -297,7 +297,7 @@ class DatabaseNote {
   int get hashCode => id.hashCode;
 }
 
-const dbName = 'notes.db';
+const dbName = 'testing.db';
 const noteTable = 'note';
 const userTable = 'user';
 const idColumn = 'id';
