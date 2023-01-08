@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:myapp/services/auth/auth_service.dart';
 
@@ -21,12 +20,6 @@ class _NotesViewState extends State<NotesView> {
   void initState() {
     _noteService = NoteService();
     super.initState();
-  }
-
-  @override
-  void dispose() {
-    _noteService.close();
-    super.dispose();
   }
 
   @override
@@ -72,7 +65,25 @@ class _NotesViewState extends State<NotesView> {
                       switch (snapshot.connectionState) {
                         case ConnectionState.waiting:
                         case ConnectionState.active:
-                          return const Text('Waiting for notes...');
+                          if (snapshot.hasData) {
+                            final allNotes =
+                                snapshot.data as List<DatabaseNote>;
+                            return ListView.builder(
+                                itemCount: allNotes.length,
+                                itemBuilder: (context, index) {
+                                  final note = allNotes[index];
+                                  return ListTile(
+                                    title: Text(
+                                      note.text,
+                                      maxLines: 1,
+                                      softWrap: true,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  );
+                                });
+                          } else {
+                            return const CircularProgressIndicator();
+                          }
 
                         default:
                           return const CircularProgressIndicator();

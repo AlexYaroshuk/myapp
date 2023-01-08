@@ -74,7 +74,7 @@ class _RegisterViewState extends State<RegisterView> {
               } on EmailAleradyInUseAuthException {
                 await showErrorDialog(
                   context,
-                  'Weak password',
+                  'Email already in use',
                 );
               } on InvalidEmailAuthException {
                 await showErrorDialog(
