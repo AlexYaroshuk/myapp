@@ -1,14 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-typedef DialogueOptionBuilder<T> = Map<String, T?> Function();
+typedef DialogOptionBuilder<T> = Map<String, T?> Function();
 
-Future<T?> showGenericDialogue<T>(
-    {required BuildContext context,
-    required String title,
-    required String content,
-    required DialogueOptionBuilder optionsBuider}) {
-  final options = optionsBuider();
+Future<T?> showGenericDialog<T>({
+  required BuildContext context,
+  required String title,
+  required String content,
+  required DialogOptionBuilder optionsBuilder,
+}) {
+  final options = optionsBuilder();
   return showDialog<T>(
     context: context,
     builder: (context) {

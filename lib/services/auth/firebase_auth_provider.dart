@@ -69,7 +69,6 @@ class FireBaseAuthProvider implements AuthProvider {
     } else {
       throw UserNotLoggedInAuthException();
     }
-    throw UnimplementedError();
   }
 
   @override
