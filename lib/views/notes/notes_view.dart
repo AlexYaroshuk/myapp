@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/services/auth/auth_service.dart';
+import 'package:mynotes/services/auth/auth_service.dart';
 
 import '../../constants/routes.dart';
 import '../../services/crud/notes_service.dart';

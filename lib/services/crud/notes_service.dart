@@ -5,7 +5,7 @@ import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart' show join;
 import 'package:path_provider/path_provider.dart';
 
-import 'package:myapp/services/crud/crud_exceptions.dart';
+import 'package:mynotes/services/crud/crud_exceptions.dart';
 
 class NoteService {
   Database? _db;
@@ -302,7 +302,7 @@ class DatabaseNote {
   int get hashCode => id.hashCode;
 }
 
-const dbName = 'testing.db';
+const dbName = 'testingnotes.db';
 const noteTable = 'note';
 const userTable = 'user';
 const idColumn = 'id';

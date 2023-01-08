@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:269432577885:android:4719a61f832058d67692b4",
         "android_client_info": {
-          "package_name": "testingdomain.myapp"
+          "package_name": "testingdomain.myNotes"
         }
       },
       "oauth_client": [
@@ -34,7 +34,7 @@
               "client_id": "269432577885-p0q5j0mllf75d16lvme2k52pi3apb2dr.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "testingdomain.myapp"
+                "bundle_id": "testingdomain.myNotes"
               }
             }
           ]

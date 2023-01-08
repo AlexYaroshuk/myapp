@@ -9,18 +9,18 @@
         
         
         {
-            "name": "myapp",
+            "name": "myNotes",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "myapp (profile mode)",
+            "name": "myNotes (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "myapp (release mode)",
+            "name": "myNotes (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

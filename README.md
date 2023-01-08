@@ -1,4 +1,4 @@
-# myapp
+# myNotes
 
 A new Flutter project.
 

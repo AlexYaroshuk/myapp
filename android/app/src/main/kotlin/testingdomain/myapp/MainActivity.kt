@@ -1,4 +1,4 @@
-package testingdomain.myapp
+package testingdomain.myNotes
 
 import io.flutter.embedding.android.FlutterActivity
 

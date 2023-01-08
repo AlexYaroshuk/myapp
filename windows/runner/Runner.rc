@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "testingdomain" "\0"
-            VALUE "FileDescription", "myapp" "\0"
+            VALUE "FileDescription", "myNotes" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "myapp" "\0"
+            VALUE "InternalName", "myNotes" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 testingdomain. All rights reserved." "\0"
-            VALUE "OriginalFilename", "myapp.exe" "\0"
-            VALUE "ProductName", "myapp" "\0"
+            VALUE "OriginalFilename", "myNotes.exe" "\0"
+            VALUE "ProductName", "myNotes" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

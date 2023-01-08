@@ -67,8 +67,9 @@ class DefaultFirebaseOptions {
     messagingSenderId: '269432577885',
     projectId: 'taazetest-a5147',
     storageBucket: 'taazetest-a5147.appspot.com',
-    iosClientId: '269432577885-p0q5j0mllf75d16lvme2k52pi3apb2dr.apps.googleusercontent.com',
-    iosBundleId: 'testingdomain.myapp',
+    iosClientId:
+        '269432577885-p0q5j0mllf75d16lvme2k52pi3apb2dr.apps.googleusercontent.com',
+    iosBundleId: 'testingdomain.myNotes',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -77,7 +78,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '269432577885',
     projectId: 'taazetest-a5147',
     storageBucket: 'taazetest-a5147.appspot.com',
-    iosClientId: '269432577885-p0q5j0mllf75d16lvme2k52pi3apb2dr.apps.googleusercontent.com',
-    iosBundleId: 'testingdomain.myapp',
+    iosClientId:
+        '269432577885-p0q5j0mllf75d16lvme2k52pi3apb2dr.apps.googleusercontent.com',
+    iosBundleId: 'testingdomain.myNotes',
   );
 }
